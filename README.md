@@ -1,15 +1,28 @@
-Assignment 12 - UI Component Library
-Student
-Ruslan Shakovych
+# Assignment 12 — UI Component Library
 
-Build Docker Image
+**Student:** Ruslan Shakovych
+**Project:** `shakovych_ruslan_ui_garden`
+
+## Getting Started with Docker
+
+### 1. Build the Docker Image
+Navigate to the project directory:
+
+cd shakovych_ruslan_ui_garden
+
+Build the Docker image:
+
 docker build -t assignment12 .
-Run Container
+
+### 2. Run the Container
+Start the container in detached mode on port 8083:
 docker run -d -p 8083:8083 --name shakovych_ruslan_coding_assignment12 assignment12
-Open Storybook
+
+### 3. Open StorybookOnce the container is running, open Storybook in your browser:
+
 http://localhost:8083
 
-Components
+Open Storybook Components Included:
 Button
 Label
 Text
@@ -19,8 +32,8 @@ RadioButton
 Img
 HeroImage
 Table
-Built using:
 
+Built With:
 React
 TypeScript
 Storybook
