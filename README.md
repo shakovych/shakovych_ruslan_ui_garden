@@ -1,4 +1,4 @@
-# Assignment 12 — UI Component Library
+# Assignment 12 - UI Component Library
 
 **Student:** Ruslan Shakovych
 **Project:** `shakovych_ruslan_ui_garden`
@@ -18,7 +18,7 @@ docker build -t assignment12 .
 Start the container in detached mode on port 8083:
 docker run -d -p 8083:8083 --name shakovych_ruslan_coding_assignment12 assignment12
 
-### 3. Open StorybookOnce the container is running, open Storybook in your browser:
+### 3. Open Storybook Once the container is running, open Storybook in your browser:
 
 http://localhost:8083
 
